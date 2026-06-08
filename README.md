@@ -20,13 +20,13 @@ Goal: publish first app & join Google Developer Program.
 ## Roadmap
 
 ### student-management-c
-> Migrate từ mảng sang Danh sách liên kết đơn (DSLK)
+> Nâng cấp struct và tính năng phân tích điểm
 
-- [ ] Refactor lưu trữ sinh viên sang `SList` thay cho mảng tĩnh
-- [ ] Thêm tính Điểm Trung Bình (`GK×0.2 + TL×0.2 + CK×0.6`)
-- [ ] Sắp xếp giảm dần theo DTB (bubble sort trên DSLK)
-- [ ] Xuất top 3 sinh viên có DTB cao nhất
-- [ ] Tách danh sách: sinh viên đạt / không đạt theo ngưỡng DTB
+- [x] Add grade components (`gk`, `tl`, `ck`) with auto-calculated GPA (`GK×0.2 + TL×0.2 + CK×0.6`)
+- [x] Update CSV schema to persist grade components
+- [x] Display top 3 students by GPA
+- [x] Filter students by pass/fail GPA threshold
+- [ ] Linked list branch: implement `SList` storage for comparison with BST
 
 ### student-management-python
 > Thêm module phân tích nâng cao
