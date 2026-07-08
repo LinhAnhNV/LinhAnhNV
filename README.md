@@ -31,8 +31,6 @@ Goal: publish first real app & join the Google Developer Program.
 
 </details>
 
-</details>
-
 <details>
 <summary><b>student-management-c</b> — nâng cấp struct và phân tích điểm</summary>
 
