@@ -11,7 +11,7 @@ Goal: publish first real app & join the Google Developer Program.
 | Repository | Stack | Description | Status |
 |---|---|---|---|
 | [house-price-prediction](https://github.com/LinhAnhNV/house-price-prediction) | Python, Scikit-learn, XGBoost | House price prediction (King County, USA) — EDA, preprocessing, 5 models compared, GridSearchCV tuning | ✅ Complete |
-| [eda-dashboard-python](https://github.com/LinhAnhNV/eda-dashboard-python) | Python, Pandas, Matplotlib, Seaborn | Exploratory Data Analysis dashboard on Titanic/Iris dataset, 5+ chart types | 🚧 In Progress |
+| [eda-dashboard-python](https://github.com/LinhAnhNV/eda-dashboard-python) | Python, Streamlit, Pandas, Matplotlib, Seaborn | Interactive EDA dashboard on Titanic/Iris dataset with live filters, 6+ chart types | ✅ Complete |
 | [student-management-c](https://github.com/LinhAnhNV/student-management-c) | C, BST, MinGW | Student management system using Binary Search Tree, CSV persistence, GPA stats | ✅ Active |
 | [student-management-python](https://github.com/LinhAnhNV/student-management-python) | Python, OOP, Pandas, NumPy | Student management + grade analysis, JSON storage, modular structure | ✅ Active |
 | [terminal-calculator-c](https://github.com/LinhAnhNV/terminal-calculator-c) | C, C++ | Full-featured terminal calculator with history, variables, functions | 🔧 Upgrading |
@@ -21,12 +21,15 @@ Goal: publish first real app & join the Google Developer Program.
 ## 🗺️ Roadmap
 
 <details>
-<summary><b>eda-dashboard-python</b> — hoàn thiện dashboard + Hash Table visualizer</summary>
+<summary><b>eda-dashboard-python</b> — hoàn thiện dashboard tương tác</summary>
 
-- [ ] Đủ 5 loại chart: histogram, scatter, heatmap, boxplot, bar
-- [ ] Thêm interactive widget (Plotly/Dash)
-- [ ] Visualize Hash Table collision: Chaining vs Linear Probing
-- [ ] README mô tả đầy đủ từng chart và insight rút ra
+- [x] Chuyển từ script tĩnh sang Streamlit app tương tác
+- [x] Đủ 6 loại chart: countplot, histogram, boxplot, barplot, heatmap
+- [x] Thêm dataset Iris, filter theo sidebar (giới tính, hạng vé, tuổi/loài hoa)
+- [x] README mô tả đầy đủ, requirements.txt, hướng dẫn chạy
+- [ ] (Ý tưởng mở rộng riêng) Visualize Hash Table collision: Chaining vs Linear Probing
+
+</details>
 
 </details>
 
